@@ -5,11 +5,12 @@ import
   Routes,
 } from "react-router-dom";
 
-import Header from '../header/header';
+import Header from '../header/header'
 import Home from '../pages/Home/home';
 import Compon from '../pages/Compon/compon';
 import Navigation from '../Navigation/navigation';
 import Props from '../pages/Props/props';
+import State from '../pages/State/state';
 import './App.sass';
 
 class App  extends  Component{
@@ -24,6 +25,7 @@ class App  extends  Component{
                   <Route  path='/' element = {<Home/>}/>
                   <Route  path='/Component' element = {<Compon/>}/>
                   <Route  path='/Props' element = {<Props/>}/>
+                  <Route  path='/State' element = {<State/>}/>
                 </Routes>
                </div>
            </div>
