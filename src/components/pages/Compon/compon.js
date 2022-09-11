@@ -8,7 +8,7 @@ class Compon extends Component{
                 return <h1>Привет, мир! </h1>;
             }
         `
-        const codeExampleFirstSecond = `
+        const codeExampleSecond = `
             class Welcome extends React.Component {
                 render() {
                     return <h1>Привет, мир!</h1>;
@@ -34,7 +34,7 @@ class Compon extends Component{
                 <span>Ещё компоненты можно определять как классы ES6:</span>
                 <pre>
                     <code>
-                        {codeExampleFirstSecond}
+                        {codeExampleSecond}
                     </code>
                 </pre>
                 <span>Компонента должна себя вести как чистая функция.</span>
