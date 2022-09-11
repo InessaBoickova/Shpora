@@ -7,6 +7,7 @@ import
 
 import Header from '../header/header';
 import Home from '../pages/Home/home';
+import Compon from '../pages/Compon/compon';
 import Navigation from '../Navigation/navigation';
 import './App.sass';
 
@@ -18,8 +19,9 @@ class App  extends  Component{
               <Header/>
                <div className='App_content'>
                 <Navigation/>
-                <Routes>
+                <Routes>\
                   <Route  path='/' element = {<Home/>}/>
+                  <Route  path='/Component' element = {<Compon/>}/>
                 </Routes>
                </div>
            </div>
