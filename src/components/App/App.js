@@ -11,6 +11,7 @@ import Compon from '../pages/Compon/compon';
 import Navigation from '../Navigation/navigation';
 import Props from '../pages/Props/props';
 import State from '../pages/State/state';
+import LifeCycle from '../pages/Lifecycle/lifecycle';
 import './App.sass';
 
 class App  extends  Component{
@@ -26,6 +27,7 @@ class App  extends  Component{
                   <Route  path='/Component' element = {<Compon/>}/>
                   <Route  path='/Props' element = {<Props/>}/>
                   <Route  path='/State' element = {<State/>}/>
+                  <Route  path='/Lifecycle' element = {<LifeCycle/>}/>
                 </Routes>
                </div>
            </div>
