@@ -1,7 +1,6 @@
 import React, { Component }  from 'react';
 import '../pages.sass'
 
-
 class LifeCycle extends Component {
     render(){
         const codeExampleFirst = `
@@ -23,7 +22,6 @@ class LifeCycle extends Component {
         const codeExampleThree  = `
             componentDidMount()
         `
-
         const codeExampleFour = `
             componentDidUpdate(prevProps, prevState) {
                 if (this.props.userID !== prevProps.userID) {

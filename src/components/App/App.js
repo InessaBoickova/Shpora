@@ -12,6 +12,7 @@ import Navigation from '../Navigation/navigation';
 import Props from '../pages/Props/props';
 import State from '../pages/State/state';
 import LifeCycle from '../pages/Lifecycle/lifecycle';
+import Fragments from '../pages/Fragment/fragment';
 import './App.sass';
 
 class App  extends  Component{
@@ -28,6 +29,7 @@ class App  extends  Component{
                   <Route  path='/Props' element = {<Props/>}/>
                   <Route  path='/State' element = {<State/>}/>
                   <Route  path='/Lifecycle' element = {<LifeCycle/>}/>
+                  <Route  path='/Fragment' element = {<Fragments/>}/>
                 </Routes>
                </div>
            </div>

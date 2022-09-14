@@ -44,7 +44,7 @@ class State extends Component{
         const codeExampleFour = `
             import {useState} from 'react';
         `
-        const codeExampleFive=`
+        const codeExampleFive =`
             const [name, setName] = useState('Mark');
         `
         
