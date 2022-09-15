@@ -11,6 +11,9 @@ import Compon from '../pages/Compon/compon';
 import Navigation from '../Navigation/navigation';
 import Props from '../pages/Props/props';
 import State from '../pages/State/state';
+import LifeCycle from '../pages/Lifecycle/lifecycle';
+import Fragments from '../pages/Fragment/fragment';
+import VirtualDOM from '../pages/Virtual_DOM/virtual_DOM';
 import './App.sass';
 
 class App  extends  Component{
@@ -26,6 +29,9 @@ class App  extends  Component{
                   <Route  path='/Component' element = {<Compon/>}/>
                   <Route  path='/Props' element = {<Props/>}/>
                   <Route  path='/State' element = {<State/>}/>
+                  <Route  path='/Lifecycle' element = {<LifeCycle/>}/>
+                  <Route  path='/Fragment' element = {<Fragments/>}/>
+                  <Route  path='/Virtual_DOM' element = {<VirtualDOM/>}/>
                 </Routes>
                </div>
            </div>
