@@ -3,7 +3,7 @@ import
  {Link,
 } from "react-router-dom";
 import './header.sass'
-import logo from '../../logo.svg'
+import logo from '../header/logo.svg'
 
 class Header extends Component{
 
@@ -21,7 +21,5 @@ class Header extends Component{
         );
     } 
 }
-
-
 
 export default Header;
