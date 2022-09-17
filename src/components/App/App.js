@@ -19,6 +19,7 @@ import Fragments from '../pages/Fragment/fragment';
 import Memo from '../pages/Memo/memo';
 import UseEffect from '../pages/UseEffect/useEffect';
 import Rout from '../pages/Router/router';
+import Context from '../pages/Context/context';
 
 import './App.sass';
 
@@ -43,6 +44,7 @@ class App  extends  Component{
                   <Route  path='/React.memo' element = {<Memo/>}/>
                   <Route  path='/UseEffect' element = {<UseEffect/>}/>
                   <Route  path='/Router' element = {<Rout/>}/>
+                  <Route  path='/Context' element = {<Context/>}/>
                 </Routes>
                </div>
            </div>
