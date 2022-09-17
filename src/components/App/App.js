@@ -7,17 +7,19 @@ import
 
 import Header from '../header/header'
 import Home from '../pages/Home/home';
-import Compon from '../pages/Compon/compon';
 import Navigation from '../Navigation/navigation';
+import Compon from '../pages/Compon/compon';
 import Props from '../pages/Props/props';
 import State from '../pages/State/state';
 import LifeCycle from '../pages/Lifecycle/lifecycle';
 import Key from '../pages/Key/key';
 import Refs from '../pages/Refs/refs';
+import VirtualDOM from '../pages/Virtual_DOM/virtual_DOM';
 import Fragments from '../pages/Fragment/fragment';
 import Memo from '../pages/Memo/memo';
 import UseEffect from '../pages/UseEffect/useEffect';
-import VirtualDOM from '../pages/Virtual_DOM/virtual_DOM';
+import Rout from '../pages/Router/router';
+
 import './App.sass';
 
 class App  extends  Component{
@@ -36,10 +38,11 @@ class App  extends  Component{
                   <Route  path='/Lifecycle' element = {<LifeCycle/>}/>
                   <Route  path='/Key' element = {<Key/>}/>
                   <Route  path='/Refs' element = {<Refs/>}/>
+                  <Route  path='/Virtual_DOM' element = {<VirtualDOM/>}/>
                   <Route  path='/Fragment' element = {<Fragments/>}/>
                   <Route  path='/React.memo' element = {<Memo/>}/>
                   <Route  path='/UseEffect' element = {<UseEffect/>}/>
-                  <Route  path='/Virtual_DOM' element = {<VirtualDOM/>}/>
+                  <Route  path='/Router' element = {<Rout/>}/>
                 </Routes>
                </div>
            </div>
