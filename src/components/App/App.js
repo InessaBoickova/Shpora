@@ -15,6 +15,7 @@ import LifeCycle from '../pages/Lifecycle/lifecycle';
 import Key from '../pages/Key/key';
 import Refs from '../pages/Refs/refs';
 import Fragments from '../pages/Fragment/fragment';
+import Memo from '../pages/Memo/memo';
 import VirtualDOM from '../pages/Virtual_DOM/virtual_DOM';
 import './App.sass';
 
@@ -35,6 +36,7 @@ class App  extends  Component{
                   <Route  path='/Key' element = {<Key/>}/>
                   <Route  path='/Refs' element = {<Refs/>}/>
                   <Route  path='/Fragment' element = {<Fragments/>}/>
+                  <Route  path='/React.memo' element = {<Memo/>}/>
                   <Route  path='/Virtual_DOM' element = {<VirtualDOM/>}/>
                 </Routes>
                </div>
