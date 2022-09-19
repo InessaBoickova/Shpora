@@ -1,5 +1,4 @@
-import React, { Component }  from 'react';
-import '../pages.sass'
+import { Component }  from 'react';
 
 class VirtualDOM extends Component{
     render(){

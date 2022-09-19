@@ -22,7 +22,8 @@ const codeExampleFive =`
 `
 
 const UseEffect = () => {
-    return <div className='content'>
+    return (
+      <div className='content'>
           <h2 className='content_header'>UseEffect</h2>
           <span>Для использования методов жизненного цикла в функциональных компонентах предназначек хук useEffect.</span>
           <pre>
@@ -50,8 +51,8 @@ const UseEffect = () => {
           <pre>
             <code>{codeExampleFive}</code>
           </pre>
-
     </div>
+    )
 }
 
 export default UseEffect;

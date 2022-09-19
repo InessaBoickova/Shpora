@@ -1,7 +1,5 @@
-import React, { Component }  from 'react';
-import {
-    NavLink,
-  } from 'react-router-dom';
+import  { Component }  from 'react';
+import {NavLink} from 'react-router-dom';
 import './navigation.sass'
 
 class Navigation extends Component{
@@ -17,7 +15,7 @@ class Navigation extends Component{
             <NavLink to="/Events" activeClassName={' active'} className='navigation_link'>Events</NavLink>
             <NavLink to="/Key" activeClassName={' active'} className='navigation_link'>Key</NavLink>
             <NavLink to="/Refs" activeClassName={' active'} className='navigation_link'>Refs</NavLink>
-            <NavLink to="Asynchronous_requests" activeClassName={' active'} className='navigation_link'>Asynchronous requests</NavLink>
+            <NavLink to="/Asynchronous_requests" activeClassName={' active'} className='navigation_link'>Asynchronous requests</NavLink>
             <NavLink to="/Virtual_DOM" activeClassName={' active'} className='navigation_link'>Virtual DOM</NavLink>
             <NavLink to="/Fragment" activeClassName={' active'} className='navigation_link'>Fragment</NavLink> 
             <NavLink to="/React.memo" activeClassName={' active'} className='navigation_link'>React.memo</NavLink> 

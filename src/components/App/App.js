@@ -1,26 +1,10 @@
-import React, { Component }  from 'react';
-import
- {BrowserRouter as Router, 
-  Route, 
-  Routes,
-} from "react-router-dom";
+import { Component }  from 'react';
+import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
 
 import Header from '../header/header'
 import Home from '../pages/Home/home';
 import Navigation from '../Navigation/navigation';
-import Compon from '../pages/Compon/compon';
-import Props from '../pages/Props/props';
-import State from '../pages/State/state';
-import LifeCycle from '../pages/Lifecycle/lifecycle';
-import Key from '../pages/Key/key';
-import Refs from '../pages/Refs/refs';
-import VirtualDOM from '../pages/Virtual_DOM/virtual_DOM';
-import Fragments from '../pages/Fragment/fragment';
-import Memo from '../pages/Memo/memo';
-import UseEffect from '../pages/UseEffect/useEffect';
-import Rout from '../pages/Router/router';
-import Context from '../pages/Context/context';
-
+import {Compon , Props , State , LifeCycle , Key , Refs ,Request, VirtualDOM, Fragments , Memo , UseEffect , Rout , Context, Form, Events} from '../pages/pages'
 import './App.sass';
 
 class App  extends  Component{
@@ -37,14 +21,17 @@ class App  extends  Component{
                   <Route  path='/Props' element = {<Props/>}/>
                   <Route  path='/State' element = {<State/>}/>
                   <Route  path='/Lifecycle' element = {<LifeCycle/>}/>
+                  <Route  path='/Events' element = {<Events/>}/>
                   <Route  path='/Key' element = {<Key/>}/>
                   <Route  path='/Refs' element = {<Refs/>}/>
+                  <Route  path='/Asynchronous_requests' element = {<Request/>}/>
                   <Route  path='/Virtual_DOM' element = {<VirtualDOM/>}/>
                   <Route  path='/Fragment' element = {<Fragments/>}/>
                   <Route  path='/React.memo' element = {<Memo/>}/>
                   <Route  path='/UseEffect' element = {<UseEffect/>}/>
                   <Route  path='/Router' element = {<Rout/>}/>
                   <Route  path='/Context' element = {<Context/>}/>
+                  <Route  path='/Form' element = {<Form/>}/>
                 </Routes>
                </div>
            </div>

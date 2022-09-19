@@ -1,5 +1,4 @@
-import React, { Component }  from 'react';
-import '../pages.sass'
+import  { Component }  from 'react';
 
 class State extends Component{
     constructor(props){
@@ -22,38 +21,39 @@ class State extends Component{
     }
 
     render(){
-        const  codeExampleFirst =`
-            class App extends React.Component {
-                constructor(props) {
-                    super(props)
-                    this.state = { username: 'johndoe' }
-                }
-                render() {
-                     return (
-                        <div> { this.state.username } </div>
-                    )
-                }
+
+    const  codeExampleFirst =`
+        class App extends React.Component {
+            constructor(props) {
+                super(props)
+                this.state = { username: 'johndoe' }
             }
-        `
-        const codeExampleSecond =` 
-            this.setState({username:'Mark'});
-        `
-        const codeExampleThree = `
-            this.setState(() => ({ username: 'Mark' }))
-        `
-        const codeExampleFour = `
-            import {useState} from 'react';
-        `
-        const codeExampleFive =`
-            const [name, setName] = useState('Mark');
-        `
-        
+            render() {
+                    return (
+                    <div> { this.state.username } </div>
+                )
+            }
+        }
+    `
+    const codeExampleSecond =` 
+        this.setState({username:'Mark'});
+    `
+    const codeExampleThree = `
+        this.setState(() => ({ username: 'Mark' }))
+    `
+    const codeExampleFour = `
+        import {useState} from 'react';
+    `
+    const codeExampleFive =`
+        const [name, setName] = useState('Mark');
+    `   
+    
         return (
             <div className="content">
                 <h2 className='content_header'>Состояние</h2>
                 <span>
                     State (состояние) в React – это объект простого JS, позволяющий отслеживать данные компонента. Состояние компонента может меняться. Смена состояния компонента зависит от функциональности приложения. Изменения могут основываться на ответе от пользователя, новых сообщениях с сервера, ответа сети и т.д.
-                </span>
+                    </span>
                 <span>
                     Состояние компонента должно быть приватным для компонента и контролироваться им. Изменения состояния компонента необходимо делать внутри компонента – инициализация и обновление состояния компонента.
                 </span>

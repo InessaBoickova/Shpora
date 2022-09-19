@@ -1,7 +1,5 @@
-import React, { Component }  from 'react';
-import
- {Link,
-} from "react-router-dom";
+import { Component }  from 'react';
+import {Link} from "react-router-dom";
 import './header.sass'
 import logo from '../header/logo.svg'
 
