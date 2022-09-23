@@ -38,15 +38,22 @@ const Login = () => {
     }
 
     return (
-        <div className="input">
+        <div className="form">
             <span>Форма входа</span>
-            <input  type="text" onChange={(e) => validText(e.target.value) } value= {text} placeholder = 'Введите логин'/>
-            <input  className="password" type="password" onChange={(e) => validPassword(e.target.value)} value={password} placeholder='Введите пароль'/>
-            <p><label>Сохранить данные</label><input type="checkbox" className='checkbox' checked/></p>
+             <form action="#">
+                <div className="input">
+                    <input name='login' type="text" onChange={(e) => validText(e.target.value) } value= {text}/>
+                    <label htmlFor="login">Введите логин</label>
+                </div>
+                <div className="input">
+                    <input className="password" type="password" onChange={(e) => validPassword(e.target.value)} value={password}/>
+                    <label htmlFor="password">Введите пароль</label>
+                </div>
+                <p><label>Сохранить данные</label><input type="checkbox" className='checkbox' checked/></p>
+             </form>
             <button onClick={ () => cleanForm()}>Войти</button>
         </div>
     )
 }
 
 export default Form;
-
