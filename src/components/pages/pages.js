@@ -8,7 +8,7 @@ import Events from './Events/events';
 import Key from './Key/key';
 import Refs from './Refs/refs';
 import Request from './Async_request/async_request';
-import VirtualDOM from './Virtual_DOM/virtual_DOM';
+import VirtualDom from './Virtual_DOM/virtual_DOM';
 import Fragments from './Fragment/fragment';
 import Memo from './Memo/memo';
 import UseEffect from './UseEffect/useEffect';
@@ -16,4 +16,4 @@ import Rout from './Router/router';
 import Context from './Context/context';
 import Form from './Form/form';
 
-export {Compon , Props , State , LifeCycle ,Events, Key , Refs ,Request, VirtualDOM, Fragments , Memo , UseEffect , Rout , Context, Form};
+export {Compon , Props , State , LifeCycle ,Events, Key , Refs ,Request, VirtualDom, Fragments , Memo , UseEffect , Rout , Context, Form};

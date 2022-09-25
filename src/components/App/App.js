@@ -4,7 +4,7 @@ import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
 import Header from '../header/header'
 import Home from '../pages/Home/home';
 import Navigation from '../Navigation/navigation';
-import {Compon , Props , State , LifeCycle , Key , Refs ,Request, VirtualDOM, Fragments , Memo , UseEffect , Rout , Context, Form, Events} from '../pages/pages'
+import {Compon , Props , State , LifeCycle , Key , Refs ,Request, VirtualDom, Fragments , Memo , UseEffect , Rout , Context, Form, Events} from '../pages/pages'
 import './App.sass';
 
 class App  extends  Component{
@@ -25,7 +25,7 @@ class App  extends  Component{
                   <Route  path='/Key' element = {<Key/>}/>
                   <Route  path='/Refs' element = {<Refs/>}/>
                   <Route  path='/Asynchronous_requests' element = {<Request/>}/>
-                  <Route  path='/Virtual_DOM' element = {<VirtualDOM/>}/>
+                  <Route  path='/Virtual_DOM' element = {<VirtualDom/>}/>
                   <Route  path='/Fragment' element = {<Fragments/>}/>
                   <Route  path='/React.memo' element = {<Memo/>}/>
                   <Route  path='/UseEffect' element = {<UseEffect/>}/>

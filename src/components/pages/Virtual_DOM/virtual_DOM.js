@@ -1,6 +1,6 @@
 import { Component }  from 'react';
 
-class VirtualDOM extends Component{
+class VirtualDom extends Component{
     render(){
         return(
             <div  className='content'>
@@ -44,4 +44,4 @@ class VirtualDOM extends Component{
     }
 }
 
-export default VirtualDOM;
+export default VirtualDom;
