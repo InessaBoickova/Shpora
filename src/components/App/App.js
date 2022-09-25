@@ -16,7 +16,7 @@ class App  extends  Component{
                <div className='App_content'>
                 <Navigation/>
                 <Routes>\
-                  <Route  path='/' element = {<Home/>}/>
+                  <Route  path='/shpora/' element = {<Home/>}/>
                   <Route  path='/Component' element = {<Compon/>}/>
                   <Route  path='/Props' element = {<Props/>}/>
                   <Route  path='/State' element = {<State/>}/>
