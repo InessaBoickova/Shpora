@@ -1,9 +1,9 @@
 import { Component }  from 'react';
 import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
 
-import Header from '../header/header'
-import Home from '../pages/Home/home';
-import Navigation from '../Navigation/navigation';
+import Header from '../Header/Header'
+import Home from '../pages/Home/Home';
+import Navigation from '../Navigation/Navigation';
 import {Compon , Props , State , LifeCycle , Key , Refs ,Request, VirtualDom, Fragments , Memo , UseEffect , Rout , Context, Form, Events} from '../pages/pages'
 import './App.sass';
 

@@ -1,7 +1,7 @@
 import { Component }  from 'react';
 import {Link} from "react-router-dom";
 import './header.sass'
-import logo from '../header/logo.svg'
+import logo from './logo.svg'
 
 class Header extends Component{
 

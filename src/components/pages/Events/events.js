@@ -1,5 +1,6 @@
-import { useState } from "react";
 import './events.sass'
+import Button from './Button'
+import Form from './Form'
 
 const Events = () =>{
     return (
@@ -41,26 +42,6 @@ const Events = () =>{
             </ul>
         </div>
     )
-}
-
-const Button = () =>{
-    const [text,setText] = useState('Выключено');
-
-    return <button
-         onClick={()=> text === 'Выключено' ? setText('Включено'): setText('Выключено')}> {text}
-        </button>
-}
-
-const Form = () =>{
-    const [text,setText] = useState(' ');
-    const showText = () =>{
-        alert(text);
-        setText(' ');
-    }
-    return <div className="form">
-        <input onChange= {(e) => setText(e.target.value)}  type="text"  value={text}/>
-        <button  onClick={() =>showText()}>Добавить</button>
-    </div>
 }
 
 export default Events;
